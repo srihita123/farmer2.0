@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35033187245B94C4006B4CEF /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35033186245B94C4006B4CEF /* FinalViewController.swift */; };
+		35066F102458E580003C0190 /* AuctionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35066F0F2458E580003C0190 /* AuctionFormViewController.swift */; };
 		3525D11C23FB708200CF3ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525D11B23FB708200CF3ACD /* AppDelegate.swift */; };
 		3525D11E23FB708200CF3ACD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525D11D23FB708200CF3ACD /* SceneDelegate.swift */; };
 		3525D12023FB708200CF3ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525D11F23FB708200CF3ACD /* ViewController.swift */; };
@@ -14,9 +16,18 @@
 		3525D12523FB708D00CF3ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3525D12423FB708D00CF3ACD /* Assets.xcassets */; };
 		3525D12823FB708D00CF3ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3525D12623FB708D00CF3ACD /* LaunchScreen.storyboard */; };
 		3525D13023FB75F400CF3ACD /* REadme in Resources */ = {isa = PBXBuildFile; fileRef = 3525D12F23FB75F400CF3ACD /* REadme */; };
+		352BD3C32436AC07000178CE /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352BD3C22436AC07000178CE /* FormViewController.swift */; };
+		3569CA152458F9AA00C8CF54 /* BidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569CA142458F9AA00C8CF54 /* BidViewController.swift */; };
+		3581F5662454F8BF00A2830C /* AuctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581F5652454F8BF00A2830C /* AuctionViewController.swift */; };
+		35D25A822439309A009CDF75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25A812439309A009CDF75 /* ProfileViewController.swift */; };
+		35D312E72444EDA1007172A0 /* BuyerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D312E62444EDA1007172A0 /* BuyerViewController.swift */; };
+		35D312E9244CF33D007172A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D312E8244CF33C007172A0 /* LoginViewController.swift */; };
+		35D312EB244CF773007172A0 /* Login.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 35D312EA244CF772007172A0 /* Login.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35033186245B94C4006B4CEF /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		35066F0F2458E580003C0190 /* AuctionFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionFormViewController.swift; sourceTree = "<group>"; };
 		3525D11823FB708200CF3ACD /* farmer2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = farmer2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3525D11B23FB708200CF3ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3525D11D23FB708200CF3ACD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,13 @@
 		3525D12723FB708D00CF3ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3525D12923FB708D00CF3ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3525D12F23FB75F400CF3ACD /* REadme */ = {isa = PBXFileReference; lastKnownFileType = text; path = REadme; sourceTree = "<group>"; };
+		352BD3C22436AC07000178CE /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		3569CA142458F9AA00C8CF54 /* BidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidViewController.swift; sourceTree = "<group>"; };
+		3581F5652454F8BF00A2830C /* AuctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionViewController.swift; sourceTree = "<group>"; };
+		35D25A812439309A009CDF75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		35D312E62444EDA1007172A0 /* BuyerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewController.swift; sourceTree = "<group>"; };
+		35D312E8244CF33C007172A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		35D312EA244CF772007172A0 /* Login.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Login.pdf; path = ../../../../Downloads/Login.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +76,20 @@
 		3525D11A23FB708200CF3ACD /* farmer2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				35033186245B94C4006B4CEF /* FinalViewController.swift */,
+				3569CA142458F9AA00C8CF54 /* BidViewController.swift */,
+				35066F0F2458E580003C0190 /* AuctionFormViewController.swift */,
+				3581F5652454F8BF00A2830C /* AuctionViewController.swift */,
+				35D312E8244CF33C007172A0 /* LoginViewController.swift */,
+				35D25A812439309A009CDF75 /* ProfileViewController.swift */,
 				3525D11B23FB708200CF3ACD /* AppDelegate.swift */,
 				3525D11D23FB708200CF3ACD /* SceneDelegate.swift */,
+				352BD3C22436AC07000178CE /* FormViewController.swift */,
+				35D312E62444EDA1007172A0 /* BuyerViewController.swift */,
 				3525D11F23FB708200CF3ACD /* ViewController.swift */,
 				3525D12123FB708200CF3ACD /* Main.storyboard */,
 				3525D12423FB708D00CF3ACD /* Assets.xcassets */,
+				35D312EA244CF772007172A0 /* Login.pdf */,
 				3525D12623FB708D00CF3ACD /* LaunchScreen.storyboard */,
 				3525D12923FB708D00CF3ACD /* Info.plist */,
 				3525D12F23FB75F400CF3ACD /* REadme */,
@@ -128,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D312EB244CF773007172A0 /* Login.pdf in Resources */,
 				3525D13023FB75F400CF3ACD /* REadme in Resources */,
 				3525D12823FB708D00CF3ACD /* LaunchScreen.storyboard in Resources */,
 				3525D12523FB708D00CF3ACD /* Assets.xcassets in Resources */,
@@ -142,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3581F5662454F8BF00A2830C /* AuctionViewController.swift in Sources */,
+				35D312E9244CF33D007172A0 /* LoginViewController.swift in Sources */,
+				35D312E72444EDA1007172A0 /* BuyerViewController.swift in Sources */,
 				3525D12023FB708200CF3ACD /* ViewController.swift in Sources */,
 				3525D11C23FB708200CF3ACD /* AppDelegate.swift in Sources */,
+				35D25A822439309A009CDF75 /* ProfileViewController.swift in Sources */,
+				35033187245B94C4006B4CEF /* FinalViewController.swift in Sources */,
+				3569CA152458F9AA00C8CF54 /* BidViewController.swift in Sources */,
+				352BD3C32436AC07000178CE /* FormViewController.swift in Sources */,
 				3525D11E23FB708200CF3ACD /* SceneDelegate.swift in Sources */,
+				35066F102458E580003C0190 /* AuctionFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
